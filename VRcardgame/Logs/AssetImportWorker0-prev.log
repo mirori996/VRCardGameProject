@@ -1,0 +1,174 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64610
+Successfully changed project path to: /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+/Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.22 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 19.20 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-14 23:36:15.576 Unity[9139:1659500] Color LCD preferred device: Intel(R) Iris(TM) Graphics 540 (low power)
+2021-01-14 23:36:15.576 Unity[9139:1659500] Metal devices available: 1
+2021-01-14 23:36:15.576 Unity[9139:1659500] 0: Intel(R) Iris(TM) Graphics 540 (low power)
+2021-01-14 23:36:15.578 Unity[9139:1659500] Using device Intel(R) Iris(TM) Graphics 540 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 540
+Initialize mono
+Mono path[0] = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56139
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003726 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.51 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.140 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 3.525227 ms (FindLiveObjects: 0.702732 ms CreateObjectMapping: 0.098811 ms MarkObjects: 2.618697 ms  DeleteObjects: 0.102569 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(d668f2b68d7d64281aadc2d93964f822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(d668f2b68d7d64281aadc2d93964f822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2d4ffce84887cf39d18f729c6f9eaf') in 0.369122 seconds
+  Import took 0.374450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.843607 seconds.
+  path: Assets/Photon
+  artifactKey: Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon using Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5784eb7e9b50cc1ef600116287982379') in 0.001562 seconds
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.652399 seconds.
+  path: Assets/Photon/PhotonNetworking-Documentation.pdf
+  artifactKey: Guid(c285a840e88d74462a18710772dc4bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonNetworking-Documentation.pdf using Guid(c285a840e88d74462a18710772dc4bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c32e4a63029210748bf069a5107e7d') in 0.339148 seconds
+  Import took 0.343842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.100687 seconds.
+  path: Assets/Photon/PhotonNetworking-Documentation.chm
+  artifactKey: Guid(6923098d409554f57bedd5a4fa66e3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonNetworking-Documentation.chm using Guid(6923098d409554f57bedd5a4fa66e3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacbb52fb860fff34dcf37ab6818251a') in 0.220082 seconds
+  Import took 0.225844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.675905 seconds.
+  path: Assets/Photon/PhotonUnityNetworking
+  artifactKey: Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking using Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6a60723869e0d7dc24be4c035784bd') in 0.002297 seconds
+  Import took 0.009346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003158 seconds.
+  path: Assets/Photon/PhotonUnityNetworking
+  artifactKey: Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking using Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6a60723869e0d7dc24be4c035784bd') in 0.003330 seconds
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.402859 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources
+  artifactKey: Guid(c567a945dafab4317a8d2021ff559c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources using Guid(c567a945dafab4317a8d2021ff559c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17ba4dbd929b0a6e4c38e77ec4cc177') in 0.005552 seconds
+  Import took 0.013440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003921 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources
+  artifactKey: Guid(c567a945dafab4317a8d2021ff559c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources using Guid(c567a945dafab4317a8d2021ff559c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17ba4dbd929b0a6e4c38e77ec4cc177') in 0.002135 seconds
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.797552 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(d668f2b68d7d64281aadc2d93964f822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(d668f2b68d7d64281aadc2d93964f822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8702bcd46b57785069adfae682aad4') in 0.023784 seconds
+  Import took 0.028391 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 37.89 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.856 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 1921 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.9 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 11.446698 ms (FindLiveObjects: 0.526377 ms CreateObjectMapping: 0.131068 ms MarkObjects: 2.288638 ms  DeleteObjects: 8.496676 ms)
+
