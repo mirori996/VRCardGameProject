@@ -478,9 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0b2233fc563c4af9af34cbd1d050094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 0}
+  cube: {fileID: 458057301}
   isVR: 1
-  player: 0
 --- !u!1001 &2102692662
 PrefabInstance:
   m_ObjectHideFlags: 0
