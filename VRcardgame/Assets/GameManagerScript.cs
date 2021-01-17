@@ -8,6 +8,7 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
 {
     public GameObject cube;
     public bool isVR = true;
+    public Vector3 cubePosition;
     //public int player;
 
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log("Game：" + PhotonNetwork.CountOfPlayers);
     }
 
     public override void OnConnectedToMaster()

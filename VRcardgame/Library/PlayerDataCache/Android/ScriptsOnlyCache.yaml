@@ -1,7 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - GameManagerScript
+    - ONSPSettings
+    - ObjectManagerScript
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
+    - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
@@ -18,6 +23,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -95,39 +101,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 2000}
+      Script: {instanceID: 1992}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 2002}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 2172}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2396}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 2454}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3826}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 3220}
+    - Class: 114
+      Script: {instanceID: 3830}
     - Class: 114
       Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4350}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4354}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4402}
     - Class: 114
-      Script: {instanceID: 4600}
+      Script: {instanceID: 4410}
     - Class: 114
-      Script: {instanceID: 4842}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 5362}
+      Script: {instanceID: 5014}
+    - Class: 114
+      Script: {instanceID: 5116}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5366}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -457,6 +471,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: db5a637cc68b679732648dc6a120238b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManagerScript
   - hash:
       serializedVersion: 2
       Hash: 3f600ad0f750f59238a91f7513b927c1
@@ -1009,6 +1029,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: OnEscapeQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectManagerScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2479,6 +2505,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: ServerAddressProperty
+  - hash:
+      serializedVersion: 2
+      Hash: b00ce1f32326f1cd1160488ffd14965a
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
