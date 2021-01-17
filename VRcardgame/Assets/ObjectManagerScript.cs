@@ -19,7 +19,7 @@ public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Object：" + PhotonNetwork.CountOfPlayers);
     }
 
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
