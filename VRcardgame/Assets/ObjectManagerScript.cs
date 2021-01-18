@@ -6,7 +6,7 @@ using Photon.Realtime;
 
 public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
 {
-    private Vector3 myCubePos;
+    public Vector3 cubePos;
 
     private GameManagerScript gameManagerScript;
 
@@ -26,29 +26,29 @@ public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
     {
         if (stream.IsWriting)
         {
-            if (gameManagerScript.isVR == false)
-            {
-                myCubePos = gameManagerScript.cube.transform.position;
-                stream.SendNext(myCubePos);
-                print("AR上のmyCubePosを送信しました：" + myCubePos);
-
-            } else
-            {
-                
-            }
-        }
-        else
-        {
-            if (gameManagerScript.isVR == false)
+            if (gameManagerScript.isVR)
             {
 
             }
             else
             {
-                myCubePos = (Vector3)stream.ReceiveNext();
-                print("VRアプリがAR上のmyCubePosを受信しました：" + myCubePos);
-                gameManagerScript.cube.transform.position = myCubePos;
-                print("VRアプリがAR上のmyCubePosをgameManagerのcubeのpositionに格納しました：" + gameManagerScript.cube.transform.position);
+                cubePos = gameManagerScript.h8perPosition;
+                stream.SendNext(cubePos);
+                print("AR上のcubePosを送信しました：" + cubePos);
+            }
+        }
+        else
+        {
+            if (gameManagerScript.isVR)
+            {
+                cubePos = (Vector3)stream.ReceiveNext();
+                print("VRアプリがAR上のcubePosを受信しました：" + cubePos);
+                gameManagerScript.h8perPosition = cubePos;
+                print("VRアプリがAR上のcubePosをgameManagerのh8perCubeのpositionに格納しました：" + gameManagerScript.h8perPosition);
+            }
+            else
+            {
+                
             }
 
         }
