@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
+    - OVRGrabbable
+    - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
     PhotonUnityNetworking.Demos.dll:
@@ -23,7 +25,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -72,6 +73,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -113,11 +116,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2454}
     - Class: 114
+      Script: {instanceID: 2908}
+    - Class: 114
       Script: {instanceID: 2942}
     - Class: 114
       Script: {instanceID: 3208}
     - Class: 114
       Script: {instanceID: 3220}
+    - Class: 114
+      Script: {instanceID: 3802}
     - Class: 114
       Script: {instanceID: 3830}
     - Class: 114
@@ -473,7 +480,7 @@ ScriptsOnlyBuild:
     className: ONSPAudioSource
   - hash:
       serializedVersion: 2
-      Hash: db5a637cc68b679732648dc6a120238b
+      Hash: 0077ae5e895f97ff8866b56a41dbe05b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManagerScript
@@ -1031,7 +1038,7 @@ ScriptsOnlyBuild:
     className: OnEscapeQuit
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b1a31b3ef3a204e33aa0a2747f7ada90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectManagerScript

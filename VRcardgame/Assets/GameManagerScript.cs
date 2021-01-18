@@ -6,22 +6,34 @@ using Photon.Realtime;
 
 public class GameManagerScript : MonoBehaviourPunCallbacks
 {
-    public GameObject cube;
     public bool isVR = true;
-    public Vector3 cubePosition;
+
+    //public GameObject field;
+    //private ObjectManagerScript vrObjectManagerScript;
+
+    public GameObject originCube;
+    public GameObject h8perCube;
+    public Vector3 h8perPosition;
+
     //public int player;
 
     // Start is called before the first frame update
+
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
+        //vrObjectManagerScript = GameObject.FindWithTag("VRObjectManager").GetComponent<ObjectManagerScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Debug.Log("Game：" + PhotonNetwork.CountOfPlayers);
+        //vrObjectManagerScript.myCubePos = new Vector3(1.0f, 1.0f, 1.0f);
+        print("この受信したh8perPositionを合成する" + h8perPosition);
+        this.h8perCube.transform.position = this.originCube.transform.position + (h8perPosition * -1);
     }
+
 
     public override void OnConnectedToMaster()
     {
