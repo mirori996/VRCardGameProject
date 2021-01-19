@@ -67,4 +67,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c34b8a6a747457495629f61c57f328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePos: {x: 0, y: 0, z: 0}
+  isvr: 0
