@@ -159,7 +159,7 @@
 86-->[:unityLibrary] /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:9-80:68
 87            android:name="unity.build-id"
 87-->[:unityLibrary] /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-42
-88            android:value="3d8a9d60-1147-4a95-acb2-3cc4a60bd533" />
+88            android:value="5bf802a4-9e90-45dd-99f2-1c0821f52252" />
 88-->[:unityLibrary] /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-65
 89        <meta-data
 89-->[:unityLibrary] /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:9-83:39

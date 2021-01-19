@@ -3344,3 +3344,244 @@ System memory in use after: 240.3 MB.
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2443.
 Total: 4.329105 ms (FindLiveObjects: 0.984788 ms CreateObjectMapping: 0.247709 ms MarkObjects: 2.494363 ms  DeleteObjects: 0.599957 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3548.742311 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/ThinBars.fbx
+  artifactKey: Guid(3912ee21d70e642d9aefc6aa25df6390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/ThinBars.fbx using Guid(3912ee21d70e642d9aefc6aa25df6390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c80d82c7ebbb4f9a730c3d3c6ba947af') in 1.357093 seconds
+  Import took 1.542289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeCeiling_15.fbx
+  artifactKey: Guid(9b9a865d8bbaa4aba869373566746a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeCeiling_15.fbx using Guid(9b9a865d8bbaa4aba869373566746a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '350d2558717361db8d515d9903d6f3d8') in 0.308674 seconds
+  Import took 0.320576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.694846 seconds.
+  path: Assets/arマーカー
+  artifactKey: Guid(9d96efdc9350d4c0cb53f1b6e5ad5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arマーカー using Guid(9d96efdc9350d4c0cb53f1b6e5ad5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ae0d74caa20b98f78ad4c5280b754') in 0.003319 seconds
+  Import took 0.008396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.545097 seconds.
+  path: Assets/trump
+  artifactKey: Guid(bd583fa3f4ac74b58a8aecfec373429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump using Guid(bd583fa3f4ac74b58a8aecfec373429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d0ca0ceda0313d9c565401bba65fb6') in 0.005531 seconds
+  Import took 0.019595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076638 seconds.
+  path: Assets/trump/Back.png
+  artifactKey: Guid(efb16be3a778a4d63bf57efbd3e3260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Back.png using Guid(efb16be3a778a4d63bf57efbd3e3260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a3246efdfb966753f12d8705d4e04fde') in 0.585688 seconds
+  Import took 0.598861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/trump/H8.png
+  artifactKey: Guid(91c70d7798c3c45fcbebd47d6ec38b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/H8.png using Guid(91c70d7798c3c45fcbebd47d6ec38b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '676087a4b5c6b31e21b27784b92bbf34') in 0.010254 seconds
+  Import took 0.014072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/trump/D9.png
+  artifactKey: Guid(27f429a20963c4f0a8157b4393ac4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/D9.png using Guid(27f429a20963c4f0a8157b4393ac4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '835029c4736a826815bee9dedae4d2cb') in 0.012693 seconds
+  Import took 0.034764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/trump/Joker.png
+  artifactKey: Guid(32fd0c3025cb04298ac0aac826bdf44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Joker.png using Guid(32fd0c3025cb04298ac0aac826bdf44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '52912c4e4b0fe1bc77d38ac2f7abe59a') in 0.011177 seconds
+  Import took 0.022465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.184361 seconds.
+  path: Assets/trump/Materials/D9.mat
+  artifactKey: Guid(71cbeaa668f1c4ce58e14a9da709d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Materials/D9.mat using Guid(71cbeaa668f1c4ce58e14a9da709d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8e5324be564b9dd86cbf8f6ddc7ab2a6') in 0.099525 seconds
+  Import took 0.105925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/trump/Materials/H8.mat
+  artifactKey: Guid(bf3994d5a4f984ad68d643e240cee88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Materials/H8.mat using Guid(bf3994d5a4f984ad68d643e240cee88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7ba722d1d79f18740743ca0bd9b5c90b') in 0.019387 seconds
+  Import took 0.024282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/trump/Materials/D9.mat
+  artifactKey: Guid(71cbeaa668f1c4ce58e14a9da709d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Materials/D9.mat using Guid(71cbeaa668f1c4ce58e14a9da709d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8e5324be564b9dd86cbf8f6ddc7ab2a6') in 0.014728 seconds
+  Import took 0.020143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/trump/Materials/Joker.mat
+  artifactKey: Guid(10ec96898dbe64781998ccd646eafd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Materials/Joker.mat using Guid(10ec96898dbe64781998ccd646eafd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '958cffd68c44e56990340200f0981284') in 0.015738 seconds
+  Import took 0.038529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018289 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 1885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.4 MB.
+System memory in use after: 245.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 3.973494 ms (FindLiveObjects: 0.296432 ms CreateObjectMapping: 0.098795 ms MarkObjects: 1.982262 ms  DeleteObjects: 1.594533 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 1885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.6 MB.
+System memory in use after: 245.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 4.035310 ms (FindLiveObjects: 0.665369 ms CreateObjectMapping: 0.252771 ms MarkObjects: 2.329767 ms  DeleteObjects: 0.784984 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 38.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.89 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.4 MB.
+System memory in use after: 213.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 4.539939 ms (FindLiveObjects: 0.483547 ms CreateObjectMapping: 0.203789 ms MarkObjects: 2.664767 ms  DeleteObjects: 1.185291 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.140 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.22 ms.
+Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.1 MB.
+System memory in use after: 245.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 8.073694 ms (FindLiveObjects: 4.703308 ms CreateObjectMapping: 0.160174 ms MarkObjects: 2.637280 ms  DeleteObjects: 0.571131 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4663.039056 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.042342 seconds
+  Import took 0.072539 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.7 MB.
+System memory in use after: 213.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 22.374755 ms (FindLiveObjects: 0.906450 ms CreateObjectMapping: 0.102419 ms MarkObjects: 20.146901 ms  DeleteObjects: 1.217117 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 276.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.29 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.7 MB.
+System memory in use after: 213.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 24.518476 ms (FindLiveObjects: 1.458664 ms CreateObjectMapping: 0.172958 ms MarkObjects: 22.242361 ms  DeleteObjects: 0.642177 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 97.35 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.13 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.8 MB.
+System memory in use after: 213.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 23.419790 ms (FindLiveObjects: 1.276090 ms CreateObjectMapping: 0.123217 ms MarkObjects: 21.418950 ms  DeleteObjects: 0.596501 ms)
+

@@ -12,8 +12,14 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
     //private ObjectManagerScript vrObjectManagerScript;
 
     public GameObject originCube;
-    public GameObject h8perCube;
-    public Vector3 h8perPosition;
+
+    public GameObject h8;
+    public GameObject d9;
+    public GameObject joker;
+
+    public Vector3 h8Position;
+    public Vector3 d9Position;
+    public Vector3 jokerPosition;
 
     //public int player;
 
@@ -30,8 +36,13 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
     {
         Debug.Log("Game：" + PhotonNetwork.CountOfPlayers);
         //vrObjectManagerScript.myCubePos = new Vector3(1.0f, 1.0f, 1.0f);
-        print("この受信したh8perPositionを合成する" + h8perPosition);
-        this.h8perCube.transform.position = this.originCube.transform.position + (h8perPosition * -1);
+        print("この受信したh8Positionを合成する" + h8Position);
+        print("この受信したd9Positionを合成する" + d9Position);
+        print("この受信したjokerPositionを合成する" + jokerPosition);
+
+        this.h8.transform.position = this.originCube.transform.position + (h8Position * -1);
+        this.d9.transform.position = this.originCube.transform.position + (d9Position * -1);
+        this.joker.transform.position = this.originCube.transform.position + (jokerPosition * -1);
     }
 
 
