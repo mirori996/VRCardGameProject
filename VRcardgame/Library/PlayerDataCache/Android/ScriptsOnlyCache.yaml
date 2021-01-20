@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
-    - OVRGrabbable
     - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
@@ -123,8 +122,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3208}
     - Class: 114
       Script: {instanceID: 3220}
-    - Class: 114
-      Script: {instanceID: 3802}
     - Class: 114
       Script: {instanceID: 3830}
     - Class: 114
