@@ -2,6 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - GameManagerScript
+    - MirrorCameraScript
+    - MirrorReflectionScript
+    - MirrorScript
     - ONSPSettings
     - ObjectManagerScript
     - UnityChan.AutoBlink
@@ -71,6 +74,8 @@ ScriptsOnlyBuild:
     - Class: 33
       Script: {instanceID: 0}
     - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -158,6 +163,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5180}
     - Class: 114
       Script: {instanceID: 5416}
+    - Class: 114
+      Script: {instanceID: 20362}
+    - Class: 114
+      Script: {instanceID: 20364}
+    - Class: 114
+      Script: {instanceID: 20366}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -495,7 +506,7 @@ ScriptsOnlyBuild:
     className: ONSPAudioSource
   - hash:
       serializedVersion: 2
-      Hash: ed7c953e196a26ec02140be98c032b8a
+      Hash: 36df10817fdaf046bff0b7d841e906ad
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManagerScript
@@ -2779,6 +2790,30 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 4e83dbb98e267112f847f6c7ba29354e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DemoScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MirrorReflectionScript
+  - hash:
+      serializedVersion: 2
+      Hash: cc96a9cc4e609171e7bc59647f124bad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MirrorCameraScript
+  - hash:
+      serializedVersion: 2
+      Hash: f5bdd65ad22970db633b5eea4b13aecf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MirrorScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

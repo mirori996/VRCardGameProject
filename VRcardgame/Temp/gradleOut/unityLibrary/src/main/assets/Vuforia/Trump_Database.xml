@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="dedene" size="0.070000 0.097212" />
+    <ImageTarget name="karamanero" size="0.070000 0.097212" />
+    <ImageTarget name="maika" size="0.070000 0.097212" />
+    <ImageTarget name="mystelytrager" size="0.070000 0.097212" />
+    <ImageTarget name="pokeka_back" size="0.070000 0.097212" />
+    <ImageTarget name="myumyu" size="0.070000 0.097212" />
+    <ImageTarget name="koumori" size="0.060000 0.060000" />
+    <ImageTarget name="H8per" size="0.060000 0.084858" />
+    <ImageTarget name="artemp_d9" size="0.060000 0.061552" />
+    <ImageTarget name="artemp_joker" size="0.060000 0.061552" />
+    <ImageTarget name="arsample11" size="0.060000 0.056384" />
+  </Tracking>
+</QCARConfig>
