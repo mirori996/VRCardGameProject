@@ -1,0 +1,183 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54065
+Successfully changed project path to: /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+/Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 109.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 33.54 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yutaro_tamahashi/workspace/VRCardGameProject/VRcardgame/Assets
+GfxDevice: creating device client; threaded=0
+2021-02-03 18:25:32.818 Unity[5111:128732] Color LCD preferred device: Intel(R) Iris(TM) Graphics 540 (low power)
+2021-02-03 18:25:32.818 Unity[5111:128732] Metal devices available: 1
+2021-02-03 18:25:32.818 Unity[5111:128732] 0: Intel(R) Iris(TM) Graphics 540 (low power)
+2021-02-03 18:25:32.825 Unity[5111:128732] Using device Intel(R) Iris(TM) Graphics 540 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 540
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56111
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003039 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.622 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010076 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
+Unloading 1968 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 173.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 3.476608 ms (FindLiveObjects: 0.367667 ms CreateObjectMapping: 0.193645 ms MarkObjects: 2.403264 ms  DeleteObjects: 0.510202 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/trump/Materials
+  artifactKey: Guid(07b47a8044fed45249bf966a4bcd2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/trump/Materials using Guid(07b47a8044fed45249bf966a4bcd2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc9a4376630fdbfeb2c275ef7f75377') in 0.005502 seconds
+  Import took 0.012045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.692118 seconds.
+  path: Assets/pokeka
+  artifactKey: Guid(27362d81f830b4aa191c12018c32635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka using Guid(27362d81f830b4aa191c12018c32635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803c3587daaa76f9a35c65720d69eb9a') in 0.003242 seconds
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801312 seconds.
+  path: Assets/pokeka/dedene.jpg
+  artifactKey: Guid(05f2173cf4e5c40129410be3851980e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/dedene.jpg using Guid(05f2173cf4e5c40129410be3851980e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '36899a6beaa06c43dbf37c6b704cfe26') in 0.868614 seconds
+  Import took 0.874543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/pokeka/karamanero.jpg
+  artifactKey: Guid(10e67a4fbc20c453c86108ecd4f26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/karamanero.jpg using Guid(10e67a4fbc20c453c86108ecd4f26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7adb54adbec1fd142b8140a6758ccd83') in 0.089245 seconds
+  Import took 0.094615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/pokeka/mystelytrager.jpg
+  artifactKey: Guid(cb8f0cf898e104f2d81c6ab6130eb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/mystelytrager.jpg using Guid(cb8f0cf898e104f2d81c6ab6130eb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '51a0f51477adc3950212252e81cc6aea') in 0.071956 seconds
+  Import took 0.076697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/pokeka/myumyu.jpg
+  artifactKey: Guid(9026bf63480fd4cc4b33e6b175a5a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/myumyu.jpg using Guid(9026bf63480fd4cc4b33e6b175a5a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b4bfe6f4a2aa2d3c8dcba4cfa811b0f1') in 0.066974 seconds
+  Import took 0.070373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/pokeka/energy_metal.jpg
+  artifactKey: Guid(6b6ef5d69fa2a4a91b432a615c780a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/energy_metal.jpg using Guid(6b6ef5d69fa2a4a91b432a615c780a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '2d67695cae2a6be436a28e369d4f87ca') in 0.050900 seconds
+  Import took 0.054847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/pokeka/pokeka_back.jpg
+  artifactKey: Guid(a9c8f164061114652b14108e6166ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/pokeka_back.jpg using Guid(a9c8f164061114652b14108e6166ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '036c9cadef0121dca15586383ff4c6e8') in 0.065853 seconds
+  Import took 0.069709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/pokeka/energy_feary.jpg
+  artifactKey: Guid(524440375b36142dfb85d3fdf8ff14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/energy_feary.jpg using Guid(524440375b36142dfb85d3fdf8ff14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '42f74fe20c456a4a4b5fce44b8f530c3') in 0.069238 seconds
+  Import took 0.073298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/pokeka/energy_water.jpg
+  artifactKey: Guid(eb5872f8927464c2f9d6319a2c7d743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/energy_water.jpg using Guid(eb5872f8927464c2f9d6319a2c7d743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '563755494969e7af7beabbd6b24fa845') in 0.076981 seconds
+  Import took 0.081392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/pokeka/maika.jpg
+  artifactKey: Guid(94f5463f3dcd04ab3acffeba886c32cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/maika.jpg using Guid(94f5463f3dcd04ab3acffeba886c32cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '95353807db6099c552e2ad9c879641c8') in 0.072496 seconds
+  Import took 0.077028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/pokeka/energy_water.jpg
+  artifactKey: Guid(eb5872f8927464c2f9d6319a2c7d743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pokeka/energy_water.jpg using Guid(eb5872f8927464c2f9d6319a2c7d743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '563755494969e7af7beabbd6b24fa845') in 0.069749 seconds
+  Import took 0.075318 seconds .
+

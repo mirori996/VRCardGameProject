@@ -1,34 +1,4 @@
-# Starting compiling UnityEngine.TestRunner.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ef7d4c0f1115c40888f839f5b10d8e4d
-# Starting compiling UnityEngine.UI.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-924601c99a79045daaf60506aa9ea98b
-# Starting compiling PhotonChat.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d448e8c2d3a7c4b53b50457245aa840f
-# Starting compiling Unity.Timeline.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4aee83428ae774215a449cd63452fdad
-# Starting compiling Unity.TextMeshPro.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-64637b25eb60b4ddcb12095d63ea30e1
-# Starting compiling Unity.Subsystem.Registration.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a1650929310ad438ca3251e670fcaebb
-# Starting compiling PhotonRealtime.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5187075e7c24641e0b5a2131fd45b12e
-# Starting compiling UnityEngine.SpatialTracking.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b0609462996024b93ab89191b4028f61
-# Starting compiling Oculus.VR.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4dbdacf73472e42759448a8683a275b1
-# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1c80592ba50504dfbb2f26f4658a3bd5
-# Starting compiling PhotonUnityNetworking.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e808efb16651a4d6bbfd627c46ec568d
-# Starting compiling Unity.XR.Management.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d16b9b6c13eeb4d5b9c24b29c70e9501
-# Starting compiling Oculus.Platform.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ded823b4a3db64c3c8094eabe2356e7d
-# Starting compiling Unity.XR.Oculus.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4e6e57754f20b49b58403e7b843720e0
-# Starting compiling PhotonUnityNetworking.Utilities.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d295f5d5cff2a4e778a08e3f55c836c1
-# Starting compiling PhotonUnityNetworking.Demos.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e27b4e6a6b89640d8b92d331f1c7d1ea
 # Starting compiling Assembly-CSharp.dll
-/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-63d860a0b93b84df1baf4dfea86f7791
+/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3a0fc4204457b400b9175d496645ffda
+# Starting compiling Assembly-CSharp-Editor.dll
+/Users/yutaro_tamahashi/workspace/unity/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5a2b9f83a3a644df1b68230dca8cb4f0

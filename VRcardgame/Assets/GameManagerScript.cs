@@ -17,9 +17,23 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
     public GameObject d9;
     public GameObject joker;
 
+    public GameObject pokeka;
+    public GameObject myumyu;
+    public GameObject mystelytrager;
+    public GameObject maika;
+    public GameObject karamanero;
+    public GameObject dedene;
+
     public Vector3 h8Position;
     public Vector3 d9Position;
     public Vector3 jokerPosition;
+
+    public Vector3 pokekaPosition;
+    public Vector3 myumyuPosition;
+    public Vector3 mystelytragerPosition;
+    public Vector3 maikaPosition;
+    public Vector3 karamaneroPosition;
+    public Vector3 dedenePosition;
 
     //public int player;
 
@@ -43,6 +57,13 @@ public class GameManagerScript : MonoBehaviourPunCallbacks
         this.h8.transform.position = this.originCube.transform.position + (h8Position * -1);
         this.d9.transform.position = this.originCube.transform.position + (d9Position * -1);
         this.joker.transform.position = this.originCube.transform.position + (jokerPosition * -1);
+
+        this.pokeka.transform.position = this.originCube.transform.position + (pokekaPosition * -1);
+        this.myumyu.transform.position = this.originCube.transform.position + (myumyuPosition * -1);
+        this.mystelytrager.transform.position = this.originCube.transform.position + (mystelytragerPosition * -1);
+        this.maika.transform.position = this.originCube.transform.position + (maikaPosition * -1);
+        this.karamanero.transform.position = this.originCube.transform.position + (karamaneroPosition * -1);
+        this.dedene.transform.position = this.originCube.transform.position + (dedenePosition * -1);
     }
 
 

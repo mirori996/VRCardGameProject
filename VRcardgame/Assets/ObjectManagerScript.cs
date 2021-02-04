@@ -10,6 +10,13 @@ public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
     private Vector3 d9Pos;
     private Vector3 jokerPos;
 
+    private Vector3 pokekaPos;
+    private Vector3 myumyuPos;
+    private Vector3 mystelytragerPos;
+    private Vector3 maikaPos;
+    private Vector3 karamaneroPos;
+    private Vector3 dedenePos;
+
     private GameManagerScript gameManagerScript;
     //
     public bool isvr;
@@ -47,6 +54,25 @@ public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
                 jokerPos = gameManagerScript.jokerPosition;
                 stream.SendNext(jokerPos);
                 print("AR上のjokerPosを送信しました：" + jokerPos);
+
+                //pokeka
+                pokekaPos = gameManagerScript.pokekaPosition;
+                stream.SendNext(pokekaPos);
+
+                myumyuPos = gameManagerScript.myumyuPosition;
+                stream.SendNext(myumyuPos);
+
+                mystelytragerPos = gameManagerScript.mystelytragerPosition;
+                stream.SendNext(mystelytragerPos);
+
+                maikaPos = gameManagerScript.maikaPosition;
+                stream.SendNext(maikaPos);
+
+                karamaneroPos = gameManagerScript.karamaneroPosition;
+                stream.SendNext(karamaneroPos);
+
+                dedenePos = gameManagerScript.dedenePosition;
+                stream.SendNext(dedenePos);
             }
         }
         else
@@ -67,6 +93,26 @@ public class ObjectManagerScript : MonoBehaviourPunCallbacks, IPunObservable
                 print("VRアプリがAR上のjokerPosを受信しました：" + jokerPos);
                 gameManagerScript.jokerPosition = jokerPos;
                 print("VRアプリがAR上のjokerPosをgameManagerのjokerPositionに格納しました：" + gameManagerScript.jokerPosition);
+
+                //pokeka
+                pokekaPos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.pokekaPosition = pokekaPos;
+
+                myumyuPos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.myumyuPosition = myumyuPos;
+
+                mystelytragerPos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.mystelytragerPosition = mystelytragerPos;
+
+                maikaPos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.maikaPosition = maikaPos;
+
+                karamaneroPos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.karamaneroPosition = karamaneroPos;
+
+                dedenePos = (Vector3)stream.ReceiveNext();
+                gameManagerScript.dedenePosition = dedenePos;
+
             }
             else
             {

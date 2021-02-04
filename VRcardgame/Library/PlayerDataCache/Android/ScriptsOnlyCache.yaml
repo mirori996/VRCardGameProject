@@ -95,69 +95,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1606}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1724}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 1888}
+      Script: {instanceID: 1914}
     - Class: 114
-      Script: {instanceID: 1992}
+      Script: {instanceID: 2018}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 2028}
     - Class: 114
-      Script: {instanceID: 2172}
+      Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2246}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2424}
     - Class: 114
-      Script: {instanceID: 2454}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2936}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 3452}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 4354}
+      Script: {instanceID: 4214}
     - Class: 114
-      Script: {instanceID: 4402}
+      Script: {instanceID: 4218}
     - Class: 114
-      Script: {instanceID: 4410}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4604}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 4454}
     - Class: 114
-      Script: {instanceID: 5014}
+      Script: {instanceID: 4552}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 4652}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5366}
+      Script: {instanceID: 5062}
     - Class: 114
-      Script: {instanceID: 25858}
+      Script: {instanceID: 5164}
     - Class: 114
-      Script: {instanceID: 25878}
+      Script: {instanceID: 5180}
     - Class: 114
-      Script: {instanceID: 25882}
+      Script: {instanceID: 5416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -337,6 +337,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8dd97b7e07915c183f8454a86716d325
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -625,6 +631,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrVoiceChat
     className: PlatformManager
+  - hash:
+      serializedVersion: 2
+      Hash: bf4698a3b70ae92d7166ab31c3de7991
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: SpringCollider
   - hash:
       serializedVersion: 2
       Hash: 0cc2f729ed4885ca9c95ead34ce0e907
@@ -1059,6 +1071,18 @@ ScriptsOnlyBuild:
     className: InteractableRegistry
   - hash:
       serializedVersion: 2
+      Hash: dec38e8c0473fb4fec0ed35c638b5a5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: SpringManager
+  - hash:
+      serializedVersion: 2
+      Hash: 06c88778eae5d73977708a880634cd1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: RandomWind
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -1263,6 +1287,12 @@ ScriptsOnlyBuild:
     className: CurrentRoomNameProperty
   - hash:
       serializedVersion: 2
+      Hash: bb311d95e19c6b4453f82be4d8215f7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: IKCtrlRightHand
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1293,6 +1323,12 @@ ScriptsOnlyBuild:
     className: TrainLocomotive
   - hash:
       serializedVersion: 2
+      Hash: 85045a1c02a413b343339373cf8e5d0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: IdleChanger
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1309,6 +1345,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportOrientationHandlerThumbstick
+  - hash:
+      serializedVersion: 2
+      Hash: 349a29f631977e0d310d8cd655eacad4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: ThirdPersonCamera
   - hash:
       serializedVersion: 2
       Hash: 4ca6f90afe62fc92d15b7d34228515d1
@@ -1357,6 +1399,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: ab0d50a7d312400076be587269334d44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: AutoBlink
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1465,6 +1513,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarSkinnedMeshRenderPBSComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 9a60482210b996d1e7db7dd1adf1c554
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: UnityChanControlScriptWithRgidBody
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -2193,6 +2247,12 @@ ScriptsOnlyBuild:
     className: RegionListView
   - hash:
       serializedVersion: 2
+      Hash: d8fa56c444095472df2811298594dbb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: FaceUpdate
+  - hash:
+      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.NetChat
@@ -2227,6 +2287,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonRealtime.dll
     namespaceName: Photon.Realtime
     className: ConnectionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: SplashScreen
   - hash:
       serializedVersion: 2
       Hash: 7200fc309b0ed180a81fb45217da51e4
@@ -2655,6 +2721,12 @@ ScriptsOnlyBuild:
     className: SendRateField
   - hash:
       serializedVersion: 2
+      Hash: d0e5139fb2593ffc620d585df8fa2ae9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityChan
+    className: SpringBone
+  - hash:
+      serializedVersion: 2
       Hash: 34c971ccf5a4d4c276f7753251cba95d
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -2707,78 +2779,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: d8fa56c444095472df2811298594dbb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: FaceUpdate
-  - hash:
-      serializedVersion: 2
-      Hash: 349a29f631977e0d310d8cd655eacad4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: ThirdPersonCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 8dd97b7e07915c183f8454a86716d325
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: SplashScreen
-  - hash:
-      serializedVersion: 2
-      Hash: dec38e8c0473fb4fec0ed35c638b5a5b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: SpringManager
-  - hash:
-      serializedVersion: 2
-      Hash: d0e5139fb2593ffc620d585df8fa2ae9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: SpringBone
-  - hash:
-      serializedVersion: 2
-      Hash: bb311d95e19c6b4453f82be4d8215f7a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: IKCtrlRightHand
-  - hash:
-      serializedVersion: 2
-      Hash: 06c88778eae5d73977708a880634cd1f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: RandomWind
-  - hash:
-      serializedVersion: 2
-      Hash: 9a60482210b996d1e7db7dd1adf1c554
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: UnityChanControlScriptWithRgidBody
-  - hash:
-      serializedVersion: 2
-      Hash: ab0d50a7d312400076be587269334d44
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: AutoBlink
-  - hash:
-      serializedVersion: 2
-      Hash: bf4698a3b70ae92d7166ab31c3de7991
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: SpringCollider
-  - hash:
-      serializedVersion: 2
-      Hash: 85045a1c02a413b343339373cf8e5d0b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityChan
-    className: IdleChanger
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
